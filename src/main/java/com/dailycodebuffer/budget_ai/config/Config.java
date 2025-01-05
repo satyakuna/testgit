@@ -27,7 +27,7 @@ public class Config {
                     = new SimpleVectorStore(embeddingModel);
 
         File vectorStoreFile =
-                new File("/Users/shabbir/Downloads/budget-ai/src/main/resources/vector_store.json");
+                new File("E:\\SpringRAG\\budget-ai\\src\\main\\resources\\vector_store.json");
 
 
         if(vectorStoreFile.exists()) {
